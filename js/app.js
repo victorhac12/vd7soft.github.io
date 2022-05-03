@@ -2,7 +2,7 @@
 
 // Detectar si podemos usar Service Workers
 if ( navigator.serviceWorker ) {
-    navigator.serviceWorker.register('vd7soft.github.io/sw.js', { scope: '/' })
+    navigator.serviceWorker.register('sw.js', { scope: 'vd7soft.github.io/' })
     .then( reg =>{
 
         setTimeout(() => {
